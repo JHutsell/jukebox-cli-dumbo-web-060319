@@ -48,7 +48,8 @@ def run
   loop do 
     puts "Please enter a command:"
     input = gets.chomp
-    
+    case input 
+    while 
     
     
   end
