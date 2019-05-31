@@ -29,9 +29,9 @@ def play(songs)
   song_choice = gets.chomp
   songs.each_with_index do |song, i|
     if song_choice.to_i == i 
-      puts "playing #{songs[i - 1]}"
+      puts "Playing #{songs[i - 1]}"
     elsif song_choice == song
-      puts "playing #{song}"
+      puts "Playing #{song}"
     else
       puts "Invalid input, please try again"
     end
