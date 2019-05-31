@@ -58,10 +58,8 @@ def run
       when "exit"
         exit_jukebox
     end
+    
     break if input == "exit"
-  
-    
-    
   end
   
 end
