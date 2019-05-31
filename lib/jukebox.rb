@@ -62,3 +62,18 @@ end
 #     break if input == "exit"
 #   end
 # end
+
+def run(songs)
+  input = gets.chomp
+  puts "Please enter a command:"
+  case input
+  when help
+    help
+  when exit
+    exit_jukebox
+  when list
+    list(songs)
+  when play(songs)
+    play(songs)
+  end
+end
