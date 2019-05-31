@@ -45,9 +45,9 @@ end
 
 def run 
   help
+  puts "Please enter a command:"
+  input = gets.chomp
   loop do 
-    puts "Please enter a command:"
-    input = gets.chomp
     case input 
       when "list"
         list(songs)
