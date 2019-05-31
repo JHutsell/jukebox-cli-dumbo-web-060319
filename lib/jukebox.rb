@@ -50,7 +50,7 @@ def run
     input = gets.chomp
     case input 
       when "list"
-        puts list(songs)
+        list(songs)
       when "play"
         play(songs)
       when "help"
