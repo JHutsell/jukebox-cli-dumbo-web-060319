@@ -51,7 +51,9 @@ def run
     case input 
       when "list"
         puts list(songs)
-      when ""
+      when "play"
+        play(songs)
+      when 
     
     
   end
