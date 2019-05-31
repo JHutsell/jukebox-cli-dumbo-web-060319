@@ -49,13 +49,13 @@ def run
     puts "Please enter a command:"
     input = gets.chomp
     case input 
-      when "list"
+      when list
         list(songs)
-      when "play"
+      when play
         play(songs)
-      when "help"
+      when help
         help 
-      when "exit"
+      when exit
         exit_jukebox
     end
     
