@@ -31,7 +31,7 @@ def play(songs)
     if song_choice.to_i == i 
       puts "playing #{songs[i - 1]}"
     elsif song_choice == song
-      puts "#{song}"
+      puts "playing #{song}"
     else
       puts "Invalid input, please try again"
     end
