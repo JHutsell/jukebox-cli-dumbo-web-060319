@@ -45,6 +45,12 @@ end
 
 def run 
   puts help
-  
+  loop do 
+    puts "Please enter a command:"
+    input = gets.chomp
+    
+    
+    
+  end
   
 end
