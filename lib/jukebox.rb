@@ -20,7 +20,7 @@ end
 
 def list(songs)
   songs.each_with_index do |song, idx|
-    
+    puts "#{i + 1} "
   end
   
 end
