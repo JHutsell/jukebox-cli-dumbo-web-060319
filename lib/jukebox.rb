@@ -44,6 +44,7 @@ end
 
 
 def run 
-  puts 
+  puts help
+  
   
 end
