@@ -53,7 +53,9 @@ def run
         puts list(songs)
       when "play"
         play(songs)
-      when 
+      when "help"
+        help 
+        
     
     
   end
