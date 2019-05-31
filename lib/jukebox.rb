@@ -49,7 +49,8 @@ def run
     puts "Please enter a command:"
     input = gets.chomp
     case input 
-    while 
+      when "list"
+        list(songs)
     
     
   end
