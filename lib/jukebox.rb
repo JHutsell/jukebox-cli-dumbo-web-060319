@@ -30,7 +30,7 @@ def play(songs)
   songs.each_with_index do |song, i|
     if song_choice.to_i == i 
       puts "playing #{songs[i - 1]}"
-    elsif song_choice == song
+    elsif songs.include?(song)
       puts "playing #{song}"
     else
       puts "Invalid input, please try again"
