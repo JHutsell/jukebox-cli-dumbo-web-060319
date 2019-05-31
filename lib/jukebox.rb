@@ -27,11 +27,11 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   song_choice = gets.chomp
-  songs.each_with_index do |song, idx|
-    if song_choice.to_i == idx 
-      puts "playing #{songs[idx - 1]}"
+  songs.each_with_index do |song, i|
+    if song_choice.to_i == i 
+      puts "playing #{songs[i - 1]}"
     elsif song_choice.downcase == song.downcase
-      puts "playing #{song[idx]}"
+      puts "playing #{song[i]}"
     else
       puts "Invalid input, please try again"
     end
